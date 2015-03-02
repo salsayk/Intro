@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>Red Spotter</title>
+		<style>
+			.game {
+				width: 400px;
+				margin: 0 auto;	
+				padding: 20px;
+				outline: 1px solid purple;
+			}
+			
+			.square {
+				width: 150px;
+				height: 150px;
+				background:blue;
+				display:inline-block;
+				margin: 10px;
+			}
+			
+			.winner {
+				background:red;
+			}
+			.game p {
+				font-size: 36px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="game">
+			<div class="square winner"></div>	
+			<div class="square "></div>	
+			<div class="square "></div>	
+			<div class="square "></div>	
+		<p>Score: <span id="score">0</span></p>
+		</div>
+		<script src="game.js" ></script>
+	</body>
+
+</html>
